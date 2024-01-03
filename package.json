@@ -2,11 +2,17 @@
   "name": "commitgenie",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "cg": "./dist/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
 }
