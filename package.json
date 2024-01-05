@@ -2,6 +2,7 @@
   "name": "commitgenie",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "bin": {
     "cg": "./dist/index.js"
   },
@@ -19,6 +20,9 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "commander": "^11.1.0"
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "commander": "^11.1.0",
+    "ora": "^8.0.1"
   }
 }
